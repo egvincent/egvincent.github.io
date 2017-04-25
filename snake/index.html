@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Snake Game</title>
+    <meta name="description" content="A simple game of snake">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <link rel="stylesheet" type="text/css" href="snake.css">
+  </head>
+<body>
+  <div class="back">
+    <br>
+    <a class="back" href="http://egvincent.com">
+      <i class="fa fa-arrow-left"></i> back to egvincent.com
+    </a>
+  </div>
+  <br><br><br>
+  <div class="container">
+    <div class="title-back"></div>
+    <div class="title">Snake Game</div>
+    <span class="subtitle">by Eric Vincent</span><br><br>
+    This is a simple game of snake I wrote in 2014 to teach myself JavaScript, HTML, and CSS.
+  </div>
+  <div class="snake container">
+    <div id="canvas-container">
+      <canvas id="canvas">canvas</canvas>
+    </div>
+    <div class="snake">
+      <p class="snake">
+        Press space to begin and pause/play.<br>
+        Use the arrow keys to move.
+      </p>
+      <p class="snake">
+        Score: 
+        <span id="snake-score" class="snake highlighted">0</span>
+      </p>
+      <p class="snake highlighted" id="snake-paused"><br></p>
+    </div>
+  </div>
+  <br><br><br>
+  <script type=text/javascript src="snake.js"></script>
+</body>
+</html>

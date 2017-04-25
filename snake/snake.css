@@ -1,0 +1,92 @@
+body {
+  background: rgb(245,245,245);
+  padding-top: 0;
+}
+
+.container {
+  -webkit-box-shadow: 0 0 7px 2px #ddd, 0 0 3px 0px #aaa;
+  margin-bottom: 15px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.back {
+  display: block;
+  width: 530px;
+  margin: auto;
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: left;
+}
+
+.back i {
+  width: 13px;
+  transition: all .25s ease-in-out;
+}
+
+.back:hover i {
+  margin-left: -10px;
+  margin-right: 10px;
+}
+
+.title-back {
+  background: #eee;
+  border-radius: 5px;
+  width: 200px;
+  height: 38px;
+  margin: 6px auto auto auto;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 2px;
+  margin-bottom: 9px;
+  margin-top: -37px;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+a, a:visited, a:focus, a:-webkit-any-link {
+  color: black;
+  display: inline-block;
+}
+
+.back a {
+  display: block;
+}
+
+/* snake-specific styles */
+
+.snake.container {
+  margin: auto;
+  font-family: Arial;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  width: 500px;
+  background: white;
+}
+
+#canvas-container {
+  margin: auto;
+}
+
+div.snake, .canvas-container.snake {
+  width: 100%;
+}
+
+.highlighted.snake{
+  color: #FF6347;
+}

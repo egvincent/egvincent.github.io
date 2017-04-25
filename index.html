@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Eric Vincent</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container" id="cont-1">
+    <div id="name-back"></div>
+    <div id="name"><span>Eric Vincent</span></div>
+    <img id="portrait" src="portrait1.jpg"><img>
+    <p id="summary">
+      I am a freshman at Stanford University with experience in software development and design. I have worked at several small software companies and as a camp counselor during my summer breaks. I have also done <a href="stanford-open">graphic design work</a> for a large gymnastics competition, the Stanford Open.
+    </p>
+  </div>
+  
+  <div class="container">
+    <div class><!--row-->
+      <a href="https://www.linkedin.com/pub/eric-vincent/bb/793/498">
+        <div class="link-box" id="linked-in">
+          <i class="fa fa-linkedin-square fa-3x"></i>
+          <div class="text">
+            <span class="label">LinkedIn</span><br>
+            <span class="username">Eric Vincent</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://github.com/egvincent">
+        <div class="link-box" id="git-hub">
+          <i class="fa fa-github-square fa-3x"></i>
+          <div class="text">
+            <span class="label">GitHub</span><br>
+            <span class="username">egvincent</span>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div><!--row-->
+      <a href="https://www.youtube.com/channel/UCe7M8BXMr5XQz4NAFHzN7Sw">
+        <div class="link-box" id="youtube">
+          <i class="fa fa-youtube-play fa-3x"></i>
+          <div class="text">
+            <span class="label">Youtube</span><br>
+            <span class="username">Eric Vincent</span>
+          </div>
+        </div>
+      </a>
+      <div class="link-box" id="email" onclick="copy()">
+        <i class="fa fa-envelope fa-3x"></i>
+        <div class="text">
+          <span class="label">Email</span><br>
+          <textarea id="email-address" rows="1" cols="18" onclick="this.focus();this.select()" readonly="readonly">evincent@gmail.com</textarea>
+        </div>
+      </div>
+    </div>
+    <div><!--row-->
+      <a href="resume.pdf">
+        <div class="link-box" id="resume">
+          <i class="fa fa-file-text fa-3x"></i>
+          <div class="text">
+            <span class="label">Resume</span><br>
+            <span class="username">Click to view pdf</span>
+          </div>
+        </div>
+      </a>
+  	</div>
+  </div>
+  <div class="container" id="work">
+    <b>My Work</b>
+    <ul>
+      <li><a href="stanford-open">Stanford Open designs</a></li>
+      <li><a href="snake">Snake game</a></li>
+    </ul>
+  </div>
+  <br><br>
+</body>
+</html>
