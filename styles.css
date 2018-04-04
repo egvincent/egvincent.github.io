@@ -8,7 +8,7 @@ body {
 }
 .container {
   margin: auto;
-  width: 500px;
+  width: 460px;
   background: white;
   padding: 9px;
   border-radius: 3px;
@@ -21,6 +21,7 @@ body {
   width: 150px;
   margin-top: 10px;
   border-radius: 100%;
+  margin-bottom: 5px;
 }
 #summary {
   text-align: left;
@@ -87,6 +88,9 @@ i {
 }
 .link-box:hover {
   background: #eee;
+}
+#linked-in, #youtube {
+  width: 160px;
 }
 a, a:visited, a:focus, a:-webkit-any-link {
   color: black;
