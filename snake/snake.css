@@ -4,6 +4,7 @@ body {
 }
 
 .container {
+  width: 460px;
   -webkit-box-shadow: 0 0 7px 2px #ddd, 0 0 3px 0px #aaa;
   margin-bottom: 15px;
   text-align: left;
